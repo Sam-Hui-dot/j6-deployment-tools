@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+restored.json
+restored_clipped.json
+.DS_Store
+Thumbs.db

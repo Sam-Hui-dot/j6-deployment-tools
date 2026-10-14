@@ -1,0 +1,278 @@
+{
+  "scope": "same real J6E raw and model-space NMS boxes; only inverse coordinate mapping changes; 8 source photos; optional four asymmetric-padding controls",
+  "cases": 28,
+  "source_photos": 8,
+  "known_rectangles": 84,
+  "model_space_boxes": 111,
+  "known_rectangle_roundtrip_max_px": {
+    "recorded": 5.684341886080802e-14,
+    "sdk_ideal": 1.2495695592286324,
+    "missing_padding": 248.2446808510639,
+    "stretch": 104.25446428571428
+  },
+  "actual_box_errors": {
+    "sdk_ideal": {
+      "box_count": 111,
+      "max_px": 1.2426656763365713,
+      "mean_of_box_max_px": 0.24200439859838174
+    },
+    "missing_padding": {
+      "box_count": 111,
+      "max_px": 248.2446808510639,
+      "mean_of_box_max_px": 140.76462274144248
+    },
+    "stretch": {
+      "box_count": 111,
+      "max_px": 107.08407538547628,
+      "mean_of_box_max_px": 42.06569761555016
+    }
+  },
+  "by_layout": {
+    "landscape": {
+      "cases": 8,
+      "boxes": 32
+    },
+    "portrait": {
+      "cases": 8,
+      "boxes": 25
+    },
+    "square": {
+      "cases": 8,
+      "boxes": 48
+    },
+    "landscape_odd": {
+      "cases": 2,
+      "boxes": 2
+    },
+    "portrait_odd": {
+      "cases": 2,
+      "boxes": 4
+    }
+  },
+  "rows": [
+    {
+      "case": "COCO_val2014_000000181586_landscape",
+      "layout": "landscape",
+      "boxes": 1,
+      "sdk_ideal_max_px": 0.4641363755502539,
+      "missing_padding_max_px": 248.2446808510639,
+      "stretch_max_px": 92.56942156807958
+    },
+    {
+      "case": "COCO_val2014_000000181586_portrait",
+      "layout": "portrait",
+      "boxes": 1,
+      "sdk_ideal_max_px": 0.5266010540008192,
+      "missing_padding_max_px": 248.24468085106383,
+      "stretch_max_px": 105.02765465905209
+    },
+    {
+      "case": "COCO_val2014_000000181586_square",
+      "layout": "square",
+      "boxes": 1,
+      "sdk_ideal_max_px": 0.0,
+      "missing_padding_max_px": 0.0,
+      "stretch_max_px": 0.0
+    },
+    {
+      "case": "COCO_val2014_000000181591_landscape",
+      "layout": "landscape",
+      "boxes": 1,
+      "sdk_ideal_max_px": 0.5042059270716095,
+      "missing_padding_max_px": 248.2446808510639,
+      "stretch_max_px": 100.56107101039137
+    },
+    {
+      "case": "COCO_val2014_000000181591_portrait",
+      "layout": "portrait",
+      "boxes": 2,
+      "sdk_ideal_max_px": 0.5223015025965767,
+      "missing_padding_max_px": 248.24468085106386,
+      "stretch_max_px": 104.17013301787259
+    },
+    {
+      "case": "COCO_val2014_000000181591_square",
+      "layout": "square",
+      "boxes": 8,
+      "sdk_ideal_max_px": 0.0,
+      "missing_padding_max_px": 0.0,
+      "stretch_max_px": 0.0
+    },
+    {
+      "case": "COCO_val2014_000000181601_landscape",
+      "layout": "landscape",
+      "boxes": 1,
+      "sdk_ideal_max_px": 0.2745706638530834,
+      "missing_padding_max_px": 248.24468085106383,
+      "stretch_max_px": 54.76159351291899
+    },
+    {
+      "case": "COCO_val2014_000000181601_portrait",
+      "layout": "portrait",
+      "boxes": 1,
+      "sdk_ideal_max_px": 0.18124134995973407,
+      "missing_padding_max_px": 248.24468085106383,
+      "stretch_max_px": 36.14758035307703
+    },
+    {
+      "case": "COCO_val2014_000000181601_square",
+      "layout": "square",
+      "boxes": 1,
+      "sdk_ideal_max_px": 0.0,
+      "missing_padding_max_px": 0.0,
+      "stretch_max_px": 0.0
+    },
+    {
+      "case": "COCO_val2014_000000181627_landscape",
+      "layout": "landscape",
+      "boxes": 5,
+      "sdk_ideal_max_px": 0.5183953015433811,
+      "missing_padding_max_px": 248.24468085106383,
+      "stretch_max_px": 103.39106291892968
+    },
+    {
+      "case": "COCO_val2014_000000181627_portrait",
+      "layout": "portrait",
+      "boxes": 4,
+      "sdk_ideal_max_px": 0.5369117985901326,
+      "missing_padding_max_px": 248.24468085106383,
+      "stretch_max_px": 107.08407538547628
+    },
+    {
+      "case": "COCO_val2014_000000181627_square",
+      "layout": "square",
+      "boxes": 4,
+      "sdk_ideal_max_px": 0.0,
+      "missing_padding_max_px": 0.0,
+      "stretch_max_px": 0.0
+    },
+    {
+      "case": "COCO_val2014_000000181643_landscape",
+      "layout": "landscape",
+      "boxes": 2,
+      "sdk_ideal_max_px": 0.3990966124165425,
+      "missing_padding_max_px": 248.2446808510638,
+      "stretch_max_px": 79.59760214308258
+    },
+    {
+      "case": "COCO_val2014_000000181643_portrait",
+      "layout": "portrait",
+      "boxes": 1,
+      "sdk_ideal_max_px": 0.3927650401498681,
+      "missing_padding_max_px": 248.24468085106383,
+      "stretch_max_px": 78.33480522989578
+    },
+    {
+      "case": "COCO_val2014_000000181643_square",
+      "layout": "square",
+      "boxes": 2,
+      "sdk_ideal_max_px": 0.0,
+      "missing_padding_max_px": 0.0,
+      "stretch_max_px": 0.0
+    },
+    {
+      "case": "COCO_val2014_000000181655_landscape",
+      "layout": "landscape",
+      "boxes": 9,
+      "sdk_ideal_max_px": 0.5211869945528633,
+      "missing_padding_max_px": 248.2446808510639,
+      "stretch_max_px": 103.9478505802696
+    },
+    {
+      "case": "COCO_val2014_000000181655_portrait",
+      "layout": "portrait",
+      "boxes": 6,
+      "sdk_ideal_max_px": 0.46998548186115485,
+      "missing_padding_max_px": 248.24468085106386,
+      "stretch_max_px": 93.73599332675202
+    },
+    {
+      "case": "COCO_val2014_000000181655_square",
+      "layout": "square",
+      "boxes": 11,
+      "sdk_ideal_max_px": 0.0,
+      "missing_padding_max_px": 0.0,
+      "stretch_max_px": 0.0
+    },
+    {
+      "case": "COCO_val2014_000000181666_landscape",
+      "layout": "landscape",
+      "boxes": 5,
+      "sdk_ideal_max_px": 0.4784210569658285,
+      "missing_padding_max_px": 248.2446808510639,
+      "stretch_max_px": 95.41842191707505
+    },
+    {
+      "case": "COCO_val2014_000000181666_portrait",
+      "layout": "portrait",
+      "boxes": 1,
+      "sdk_ideal_max_px": 0.07892810401585848,
+      "missing_padding_max_px": 248.24468085106383,
+      "stretch_max_px": 15.741771856490857
+    },
+    {
+      "case": "COCO_val2014_000000181666_square",
+      "layout": "square",
+      "boxes": 11,
+      "sdk_ideal_max_px": 0.0,
+      "missing_padding_max_px": 0.0,
+      "stretch_max_px": 0.0
+    },
+    {
+      "case": "COCO_val2014_000000181677_landscape",
+      "layout": "landscape",
+      "boxes": 8,
+      "sdk_ideal_max_px": 0.49377229277576795,
+      "missing_padding_max_px": 248.24468085106386,
+      "stretch_max_px": 98.48014061472246
+    },
+    {
+      "case": "COCO_val2014_000000181677_portrait",
+      "layout": "portrait",
+      "boxes": 9,
+      "sdk_ideal_max_px": 0.5137308883823266,
+      "missing_padding_max_px": 248.2446808510639,
+      "stretch_max_px": 102.46077162736373
+    },
+    {
+      "case": "COCO_val2014_000000181677_square",
+      "layout": "square",
+      "boxes": 10,
+      "sdk_ideal_max_px": 0.0,
+      "missing_padding_max_px": 0.0,
+      "stretch_max_px": 0.0
+    },
+    {
+      "case": "COCO_val2014_000000181586_landscape_odd",
+      "layout": "landscape_odd",
+      "boxes": 1,
+      "sdk_ideal_max_px": 1.152360874167016,
+      "missing_padding_max_px": 245.82105263157894,
+      "stretch_max_px": 87.7855691502501
+    },
+    {
+      "case": "COCO_val2014_000000181586_portrait_odd",
+      "layout": "portrait_odd",
+      "boxes": 1,
+      "sdk_ideal_max_px": 0.7417603624008962,
+      "missing_padding_max_px": 245.82105263157894,
+      "stretch_max_px": 104.79395215841836
+    },
+    {
+      "case": "COCO_val2014_000000181591_landscape_odd",
+      "layout": "landscape_odd",
+      "boxes": 1,
+      "sdk_ideal_max_px": 1.2426656763365713,
+      "missing_padding_max_px": 245.82105263157894,
+      "stretch_max_px": 103.05164485853027
+    },
+    {
+      "case": "COCO_val2014_000000181591_portrait_odd",
+      "layout": "portrait_odd",
+      "boxes": 3,
+      "sdk_ideal_max_px": 1.1651749780807563,
+      "missing_padding_max_px": 245.821052631579,
+      "stretch_max_px": 102.81761479778845
+    }
+  ]
+}

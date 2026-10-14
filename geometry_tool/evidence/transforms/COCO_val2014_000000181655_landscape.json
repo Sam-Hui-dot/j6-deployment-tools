@@ -1,0 +1,61 @@
+{
+  "case": "COCO_val2014_000000181655_landscape",
+  "source_photo": "COCO_val2014_000000181655.jpg",
+  "source_sha256": "5fd0963e01306477120ed9fe3214675f98e48636c556c678ccc2c3f1044a70cd",
+  "layout": "landscape",
+  "jpeg_sha256": "db17d31b7e409bf9f9fae8c695979b08be7600a182db6b05cbe0897b1edbd121",
+  "nv12_sha256": "539faee4f81794154c501c513e07df22db00a5da9c6785364aca8ba2f794262b",
+  "transform": {
+    "original_hw": [
+      359,
+      853
+    ],
+    "target_hw": [
+      672,
+      672
+    ],
+    "resized_hw": [
+      282,
+      672
+    ],
+    "padding_ltrb": [
+      0,
+      195,
+      0,
+      195
+    ],
+    "scale_xy": [
+      0.7878077373974208,
+      0.7855153203342619
+    ],
+    "ideal_ratio": 0.7878077373974208,
+    "coordinate_convention": "continuous box edges; no integer rounding during coordinate mapping"
+  },
+  "known_rectangles": [
+    [
+      0.0,
+      0.0,
+      852.0,
+      358.0
+    ],
+    [
+      110.89,
+      75.39,
+      580.0400000000001,
+      262.07
+    ],
+    [
+      1.0,
+      3.0,
+      849.0,
+      353.0
+    ]
+  ],
+  "roundtrip_max_error_px": {
+    "recorded": 7.105427357601002e-15,
+    "sdk_ideal": 0.5223214285714296,
+    "missing_padding": 248.2446808510639,
+    "stretch": 104.17410714285715
+  },
+  "input_equal_to_sdk": true
+}

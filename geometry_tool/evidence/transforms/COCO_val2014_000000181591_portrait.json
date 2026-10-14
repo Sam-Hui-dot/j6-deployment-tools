@@ -1,0 +1,61 @@
+{
+  "case": "COCO_val2014_000000181591_portrait",
+  "source_photo": "COCO_val2014_000000181591.jpg",
+  "source_sha256": "563e13b6f0de131e16525b04e0295fbb39e78d5f639497d611ac3c4c94482ca1",
+  "layout": "portrait",
+  "jpeg_sha256": "65e35bf2ae80aecd71276f72bcb12b39666520d21c8cf1a163e4f32a0107d12d",
+  "nv12_sha256": "5e62c5ba8997eaeb4c307d6fbd1f1d5845fce2d3f387b8b98603d56737324014",
+  "transform": {
+    "original_hw": [
+      853,
+      359
+    ],
+    "target_hw": [
+      672,
+      672
+    ],
+    "resized_hw": [
+      672,
+      282
+    ],
+    "padding_ltrb": [
+      195,
+      0,
+      195,
+      0
+    ],
+    "scale_xy": [
+      0.7855153203342619,
+      0.7878077373974208
+    ],
+    "ideal_ratio": 0.7878077373974208,
+    "coordinate_convention": "continuous box edges; no integer rounding during coordinate mapping"
+  },
+  "known_rectangles": [
+    [
+      0.0,
+      0.0,
+      358.0,
+      852.0
+    ],
+    [
+      46.67,
+      179.13,
+      244.12,
+      622.6899999999999
+    ],
+    [
+      1.0,
+      3.0,
+      355.0,
+      847.0
+    ]
+  ],
+  "roundtrip_max_error_px": {
+    "recorded": 2.842170943040401e-14,
+    "sdk_ideal": 0.5223214285714296,
+    "missing_padding": 248.2446808510639,
+    "stretch": 104.17410714285715
+  },
+  "input_equal_to_sdk": true
+}
