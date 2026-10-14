@@ -1,0 +1,41 @@
+{
+  "scope": "expected behavior by static inspection; not a new executed experiment",
+  "normal_runs": {
+    "runs": 3,
+    "expected_passed": 3,
+    "expected_exit": 0
+  },
+  "mixed_runs": {
+    "runs": 10,
+    "expected_passed": 3,
+    "expected_flagged": 7,
+    "expected_exit": 1
+  },
+  "expected_failed_checks": {
+    "normal_classification": [],
+    "normal_detection": [],
+    "same_detection_different_order": [],
+    "model_file_changed": [
+      "model"
+    ],
+    "input_same_size_changed": [
+      "input"
+    ],
+    "raw_same_size_changed": [
+      "raw"
+    ],
+    "classification_order_changed": [
+      "result"
+    ],
+    "raw_truncated": [
+      "structure",
+      "raw"
+    ],
+    "failed_exit_with_old_good_files": [
+      "execution"
+    ],
+    "duplicate_detection": [
+      "result"
+    ]
+  }
+}

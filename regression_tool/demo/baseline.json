@@ -1,0 +1,64 @@
+{
+  "scope": "SYNTHETIC PORTABLE DEMO; no J6 inference or measured experimental cases; model is a text placeholder",
+  "cases": {
+    "demo_classify": {
+      "model_sha256": "9b4f5808c6d24fb46069dcf471f8d614f7211ae1cf9d80bd66c8c197e305da79",
+      "inputs": {
+        "input": {
+          "bytes": 8,
+          "sha256": "8a851ff82ee7048ad09ec3847f1ddf44944104d2cbd17ef4e3db22c6785a0d45"
+        }
+      },
+      "outputs": {
+        "output": {
+          "bytes": 20,
+          "sha256": "6e28b4d41af8a88650219653a728e0fd6760bb2b1dfeb7a9eb8deb5b4e7010e0"
+        }
+      },
+      "result": {
+        "top5_ids": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      }
+    },
+    "demo_detect": {
+      "model_sha256": "9b4f5808c6d24fb46069dcf471f8d614f7211ae1cf9d80bd66c8c197e305da79",
+      "inputs": {
+        "input": {
+          "bytes": 8,
+          "sha256": "8a851ff82ee7048ad09ec3847f1ddf44944104d2cbd17ef4e3db22c6785a0d45"
+        }
+      },
+      "outputs": {
+        "output": {
+          "bytes": 20,
+          "sha256": "6e28b4d41af8a88650219653a728e0fd6760bb2b1dfeb7a9eb8deb5b4e7010e0"
+        }
+      },
+      "result": {
+        "boxes": [
+          [
+            10.0,
+            20.0,
+            40.0,
+            60.0,
+            0.9,
+            15
+          ],
+          [
+            70.0,
+            80.0,
+            110.0,
+            120.0,
+            0.8,
+            0
+          ]
+        ]
+      }
+    }
+  }
+}

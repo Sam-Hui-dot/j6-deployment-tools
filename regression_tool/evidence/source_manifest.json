@@ -1,0 +1,44 @@
+[
+  {
+    "original_filename": "regression_check.py",
+    "sha256": "13f8022b5dd1189196ed2d2b7672ccb08a1fd8e8eef9d2795256189eca85ea52",
+    "bytes": 5931,
+    "public_copy": "regression_check.py"
+  },
+  {
+    "original_filename": "capture_cli_record.py",
+    "sha256": "4a4e8aaf76258041a04c5d59c7977a5c8545ddfadaa47553946823e98ee42758",
+    "bytes": 2284,
+    "public_copy": "capture_cli_record.py"
+  },
+  {
+    "original_filename": "test_regression_check.py",
+    "sha256": "33ba9c5c8118fbeb582fa0bf075971277a39d31aad320870d07c3c4a19a9ecb2",
+    "bytes": 3983,
+    "public_copy": "test_regression_check.py"
+  },
+  {
+    "original_filename": "baseline.json",
+    "sha256": "09e91d3cba352f0be1245e208779299cf58fd7ff0c389502c32b5b664bf6ed1c",
+    "bytes": 39320,
+    "public_copy": "evidence/baseline.json"
+  },
+  {
+    "original_filename": "coverage_v2.csv",
+    "sha256": "974279ffdbe414374b6a6003b88b57febbf30a9e118d544029718cbc51235ebd",
+    "bytes": 16416,
+    "public_copy": "evidence/coverage_v2.csv"
+  },
+  {
+    "original_filename": "fresh_board_summary.json",
+    "sha256": "8f21a88c697d402a8b3274ec6f0ac28dd8cdd170dc126f63e3c0f81ed83d3138",
+    "bytes": 1045,
+    "public_copy": "evidence/fresh_board_summary.json"
+  },
+  {
+    "original_filename": "summary_v2.json",
+    "sha256": "6fcc6fca0b11af7b5c7011e274b47fc930a53b584c48c6b5098552c5b206709c",
+    "bytes": 49021,
+    "public_copy": "evidence/summary_121.json (aggregate fields only)"
+  }
+]

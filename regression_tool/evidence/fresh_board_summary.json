@@ -1,0 +1,35 @@
+{
+  "scope": "fresh board CLI process capture and regression, plus preserved order-only false positive/recheck",
+  "fresh_normal_passed": 3,
+  "fresh_normal_total": 3,
+  "missing_image_actual_process_exit": 1,
+  "missing_image_checker_exit": 1,
+  "order_only_false_positive_preserved": true,
+  "v2_order_recheck_passed": true,
+  "rows": [
+    {
+      "record": "classify.run.json",
+      "actual_process_exit": 0,
+      "passed": true,
+      "local_replay_agrees_with_target_report": true
+    },
+    {
+      "record": "COCO_val2014_000000181586.run.json",
+      "actual_process_exit": 0,
+      "passed": true,
+      "local_replay_agrees_with_target_report": true
+    },
+    {
+      "record": "COCO_val2014_000000181591.run.json",
+      "actual_process_exit": 0,
+      "passed": true,
+      "local_replay_agrees_with_target_report": true
+    },
+    {
+      "record": "missing_image.run.json",
+      "actual_process_exit": 1,
+      "passed": false,
+      "local_replay_agrees_with_target_report": true
+    }
+  ]
+}

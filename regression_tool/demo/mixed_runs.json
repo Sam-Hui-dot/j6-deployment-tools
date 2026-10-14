@@ -1,0 +1,152 @@
+[
+  {
+    "run_id": "normal_classification",
+    "baseline_case": "demo_classify",
+    "group": "synthetic_control",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/classify.json"
+  },
+  {
+    "run_id": "normal_detection",
+    "baseline_case": "demo_detect",
+    "group": "synthetic_control",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/detect.json"
+  },
+  {
+    "run_id": "same_detection_different_order",
+    "baseline_case": "demo_detect",
+    "group": "synthetic_control",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/detect-reordered.json"
+  },
+  {
+    "run_id": "model_file_changed",
+    "baseline_case": "demo_classify",
+    "group": "synthetic_fault",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-changed.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/classify.json"
+  },
+  {
+    "run_id": "input_same_size_changed",
+    "baseline_case": "demo_classify",
+    "group": "synthetic_fault",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input-changed.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/classify.json"
+  },
+  {
+    "run_id": "raw_same_size_changed",
+    "baseline_case": "demo_classify",
+    "group": "synthetic_fault",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-changed.bin"
+    },
+    "result": "files/classify.json"
+  },
+  {
+    "run_id": "classification_order_changed",
+    "baseline_case": "demo_classify",
+    "group": "synthetic_fault",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/classify-changed.json"
+  },
+  {
+    "run_id": "raw_truncated",
+    "baseline_case": "demo_classify",
+    "group": "synthetic_fault",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-truncated.bin"
+    },
+    "result": "files/classify.json"
+  },
+  {
+    "run_id": "failed_exit_with_old_good_files",
+    "baseline_case": "demo_classify",
+    "group": "synthetic_fault",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 1,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/classify.json"
+  },
+  {
+    "run_id": "duplicate_detection",
+    "baseline_case": "demo_detect",
+    "group": "synthetic_fault",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/detect-duplicate.json"
+  }
+]

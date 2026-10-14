@@ -1,6 +1,13 @@
 # J6 部署实验工具
 
-地平线征程6部署实验中的小工具、使用说明和可复现样例。当前提供**检测框坐标还原工具**：图片保持比例缩放并补边之后，把模型坐标中的检测框还原到原图位置。
+地平线征程6部署实验中的小工具、使用说明和样例。当前提供两项：**检测框坐标还原**和**固定模型回归检查**。
+
+| 工具 | 解决什么 | 运行环境 |
+|---|---|---|
+| [坐标还原](geometry_tool/README.md) | 将缩放补边后的框换算回原图 | Python 3.9+、NumPy |
+| [回归检查](regression_tool/README.md) | 修改程序后，对照可信基准检查模型、文件与任务结果的变化 | Python 3.11+，标准库即可 |
+
+回归工具另附10个明确标注的**合成演示案例**，用于学习命令与报告；真实J6E实验的121例覆盖统计放在独立的[evidence目录](regression_tool/evidence/README.md)。下载仓库不会执行模型推理。
 
 配套文章：[《检测框画偏了？把 J6 模型输出的位置还原到原图》](https://developer.horizon.auto/blog/14163)。实验于2026年10月12日在J6E MatrixB上完成，环境为OE 3.9.1、UCP 3.15.8、HBRT 4.11.11。
 
@@ -38,8 +45,22 @@ python map_boxes.py --record sample/transform.json --boxes sample/model_boxes.js
 | [geometry_tool/evidence](geometry_tool/evidence/README.md) | 28个构造视图的记录、汇总统计和来源说明 |
 | `geometry_tool/test_geometry_transform.py` | 横竖图、取整补边、已知坐标等已有检查用例 |
 | `docs/letterbox.svg` | 本仓库绘制的流程示意 |
+| [regression_tool](regression_tool/README.md) | 固定模型文件/任务结果对照检查器、真实进程捕获适配器和演示 |
+| `regression_tool/demo` | 10个合成离线案例：3个正常对照、7个变化/失败案例 |
+| [regression_tool/evidence](regression_tool/evidence/README.md) | 121例真实来源回放的统计、逐例覆盖表与新的板端捕获汇总 |
 
-当前仓库提供坐标工具。图片推理、性能测试和其他工具属于系列中的不同工作，不作为已实现功能列在这里。
+## 回归工具快速体验
+
+在仓库根目录，使用Python 3.11或更新版本运行；不需要安装NumPy：
+
+```bash
+python regression_tool/regression_check.py --baseline regression_tool/demo/baseline.json --runs regression_tool/demo/normal_runs.json --report reports/demo_normal.json
+python regression_tool/regression_check.py --baseline regression_tool/demo/baseline.json --runs regression_tool/demo/mixed_runs.json --report reports/demo_mixed.json
+```
+
+第一条预期3/3通过、退出0；第二条包含主动制造的错误，预期3/10通过、7例告警、退出1。这个非零退出是演示目的，查看生成的JSON报告可定位差异层。再次运行请换新报告名。
+
+演示中的模型文件是文本占位文件，不是HBM，输入与输出也是合成字节。用于真实项目时，应换为自己的模型与经过独立核对的基准。[详细用法](regression_tool/README.md)说明了记录格式、捕获器的适配范围和真实实验来源。
 
 ## 适用范围
 
@@ -47,7 +68,7 @@ python map_boxes.py --record sample/transform.json --boxes sample/model_boxes.js
 
 本次实验使用8张原照片构造28个横、竖、方及不对称补边视图，保存板端输出后固定模型空间筛选/NMS，共比较111个框的逆变换。详见[实验统计](geometry_tool/evidence/README.md)。它检查的是位置换算，未用目标标注评价检测精度。
 
-仓库只包含独立坐标代码、自有记录和数值样例；运行不依赖OE SDK。COCO原照片、模型权重、HBM、SDK库及完整板端raw不包含在本仓库。
+仓库包含独立工具、自有记录、数值样例与合成演示。离线工具运行不依赖OE SDK；捕获器连接真实板端程序时则需要相应程序和运行环境。COCO原照片、模型权重、HBM、SDK库及完整板端raw不包含在本仓库。
 
 ## 许可与反馈
 

@@ -1,0 +1,122 @@
+﻿run_id,group,origin,flagged,model_flagged,structure_flagged,execution_flagged,input_flagged,raw_flagged,result_flagged
+classify_ILSVRC2012_val_00000071__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000071__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000072__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000072__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000073__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000073__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000074__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000074__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000075__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000075__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000076__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000076__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000077__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000077__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000078__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000078__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000079__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000079__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000080__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000080__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000081__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000081__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000082__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000082__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000083__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000083__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000084__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000084__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000085__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000085__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000086__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000086__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000087__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000087__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000088__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000088__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000089__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000089__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000090__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000090__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000091__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000091__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000092__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000092__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000093__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000093__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000094__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000094__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000095__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000095__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000096__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000096__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000097__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000097__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000098__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000098__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000099__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000099__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000100__normal,normal,actual Target control,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000100__raw_integer_top5,raw_integer_top5,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+classify_ILSVRC2012_val_00000071__bgr_as_rgb,bgr_as_rgb,actual Target input fault,True,False,False,False,True,True,True
+classify_ILSVRC2012_val_00000071__channel_norm_repeated,channel_norm_repeated,actual Target input fault,True,False,False,False,True,True,True
+classify_ILSVRC2012_val_00000071__normalization_missing,normalization_missing,actual Target input fault,True,False,False,False,True,True,True
+classify_ILSVRC2012_val_00000072__bgr_as_rgb,bgr_as_rgb,actual Target input fault,True,False,False,False,True,True,True
+classify_ILSVRC2012_val_00000072__channel_norm_repeated,channel_norm_repeated,actual Target input fault,True,False,False,False,True,True,True
+classify_ILSVRC2012_val_00000072__normalization_missing,normalization_missing,actual Target input fault,True,False,False,False,True,True,True
+classify_ILSVRC2012_val_00000073__bgr_as_rgb,bgr_as_rgb,actual Target input fault,True,False,False,False,True,True,True
+classify_ILSVRC2012_val_00000073__channel_norm_repeated,channel_norm_repeated,actual Target input fault,True,False,False,False,True,True,True
+classify_ILSVRC2012_val_00000073__normalization_missing,normalization_missing,actual Target input fault,True,False,False,False,True,True,True
+detect_COCO_val2014_000000181586__normal,normal,actual Target control,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181586__uv_swap,uv_swap,actual Target input fault,True,False,False,False,True,True,True
+detect_COCO_val2014_000000181586__tight_copy,tight_copy,actual Target input fault,True,False,False,False,False,True,True
+detect_COCO_val2014_000000181586__single_scale,single_scale,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181586__wrong_stretch,wrong_stretch,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181591__normal,normal,actual Target control,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181591__uv_swap,uv_swap,actual Target input fault,True,False,False,False,True,True,True
+detect_COCO_val2014_000000181591__tight_copy,tight_copy,actual Target input fault,True,False,False,False,False,True,True
+detect_COCO_val2014_000000181591__single_scale,single_scale,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181591__wrong_stretch,wrong_stretch,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181601__normal,normal,actual Target control,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181601__uv_swap,uv_swap,actual Target input fault,True,False,False,False,True,True,True
+detect_COCO_val2014_000000181601__tight_copy,tight_copy,actual Target input fault,True,False,False,False,False,True,True
+detect_COCO_val2014_000000181601__single_scale,single_scale,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181601__wrong_stretch,wrong_stretch,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181627__normal,normal,actual Target control,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181627__uv_swap,uv_swap,actual Target input fault,True,False,False,False,True,True,True
+detect_COCO_val2014_000000181627__tight_copy,tight_copy,actual Target input fault,True,False,False,False,False,True,True
+detect_COCO_val2014_000000181627__single_scale,single_scale,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181627__wrong_stretch,wrong_stretch,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181643__normal,normal,actual Target control,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181643__uv_swap,uv_swap,actual Target input fault,True,False,False,False,True,True,True
+detect_COCO_val2014_000000181643__tight_copy,tight_copy,actual Target input fault,True,False,False,False,False,True,True
+detect_COCO_val2014_000000181643__single_scale,single_scale,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181643__wrong_stretch,wrong_stretch,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181655__normal,normal,actual Target control,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181655__uv_swap,uv_swap,actual Target input fault,True,False,False,False,True,True,True
+detect_COCO_val2014_000000181655__tight_copy,tight_copy,actual Target input fault,True,False,False,False,False,True,True
+detect_COCO_val2014_000000181655__single_scale,single_scale,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181655__wrong_stretch,wrong_stretch,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181666__normal,normal,actual Target control,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181666__uv_swap,uv_swap,actual Target input fault,True,False,False,False,True,True,True
+detect_COCO_val2014_000000181666__tight_copy,tight_copy,actual Target input fault,True,False,False,False,False,True,True
+detect_COCO_val2014_000000181666__single_scale,single_scale,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181666__wrong_stretch,wrong_stretch,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181677__normal,normal,actual Target control,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181677__uv_swap,uv_swap,actual Target input fault,True,False,False,False,True,True,True
+detect_COCO_val2014_000000181677__tight_copy,tight_copy,actual Target input fault,True,False,False,False,False,True,True
+detect_COCO_val2014_000000181677__single_scale,single_scale,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181677__wrong_stretch,wrong_stretch,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181714__normal,normal,actual Target control,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181714__uv_swap,uv_swap,actual Target input fault,True,False,False,False,True,True,True
+detect_COCO_val2014_000000181714__tight_copy,tight_copy,actual Target input fault,True,False,False,False,False,True,True
+detect_COCO_val2014_000000181714__single_scale,single_scale,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181714__wrong_stretch,wrong_stretch,local postprocessing mutation of actual Target raw,True,False,False,False,False,False,True
+detect_COCO_val2014_000000181739__normal,normal,actual Target control,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181739__uv_swap,uv_swap,actual Target input fault,True,False,False,False,True,True,False
+detect_COCO_val2014_000000181739__tight_copy,tight_copy,actual Target input fault,True,False,False,False,False,True,False
+detect_COCO_val2014_000000181739__single_scale,single_scale,local postprocessing mutation of actual Target raw,False,False,False,False,False,False,False
+detect_COCO_val2014_000000181739__wrong_stretch,wrong_stretch,local postprocessing mutation of actual Target raw,False,False,False,False,False,False,False
+classify_ILSVRC2012_val_00000071__normal__truncated_export,truncated_export,local corruption of one exported raw file,True,False,True,False,False,True,False
+detect_COCO_val2014_000000181586__normal__truncated_export,truncated_export,local corruption of one exported raw file,True,False,True,False,False,True,False

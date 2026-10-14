@@ -1,0 +1,47 @@
+[
+  {
+    "run_id": "normal_classification",
+    "baseline_case": "demo_classify",
+    "group": "synthetic_control",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/classify.json"
+  },
+  {
+    "run_id": "normal_detection",
+    "baseline_case": "demo_detect",
+    "group": "synthetic_control",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/detect.json"
+  },
+  {
+    "run_id": "same_detection_different_order",
+    "baseline_case": "demo_detect",
+    "group": "synthetic_control",
+    "origin": "synthetic demonstration; no process executed by this fixture",
+    "exit_code": 0,
+    "model": "files/model-placeholder.txt",
+    "inputs": {
+      "input": "files/input.bin"
+    },
+    "outputs": {
+      "output": "files/raw-output.bin"
+    },
+    "result": "files/detect-reordered.json"
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "scope": "121 artifact replays: 40 actual Target controls, 29 actual Target input-fault outputs, 50 locally modified postprocess results, 2 locally truncated exported files; no new 121-frame Target run",
+  "normal_controls": 40,
+  "normal_flagged": 0,
+  "non_control_configurations": 81,
+  "non_control_flagged": 79,
+  "groups": {
+    "normal": {
+      "cases": 40,
+      "flagged": 0,
+      "by_check": {
+        "model": 0,
+        "structure": 0,
+        "execution": 0,
+        "input": 0,
+        "raw": 0,
+        "result": 0
+      }
+    },
+    "raw_integer_top5": {
+      "cases": 30,
+      "flagged": 30,
+      "by_check": {
+        "model": 0,
+        "structure": 0,
+        "execution": 0,
+        "input": 0,
+        "raw": 0,
+        "result": 30
+      }
+    },
+    "bgr_as_rgb": {
+      "cases": 3,
+      "flagged": 3,
+      "by_check": {
+        "model": 0,
+        "structure": 0,
+        "execution": 0,
+        "input": 3,
+        "raw": 3,
+        "result": 3
+      }
+    },
+    "channel_norm_repeated": {
+      "cases": 3,
+      "flagged": 3,
+      "by_check": {
+        "model": 0,
+        "structure": 0,
+        "execution": 0,
+        "input": 3,
+        "raw": 3,
+        "result": 3
+      }
+    },
+    "normalization_missing": {
+      "cases": 3,
+      "flagged": 3,
+      "by_check": {
+        "model": 0,
+        "structure": 0,
+        "execution": 0,
+        "input": 3,
+        "raw": 3,
+        "result": 3
+      }
+    },
+    "uv_swap": {
+      "cases": 10,
+      "flagged": 10,
+      "by_check": {
+        "model": 0,
+        "structure": 0,
+        "execution": 0,
+        "input": 10,
+        "raw": 10,
+        "result": 9
+      }
+    },
+    "tight_copy": {
+      "cases": 10,
+      "flagged": 10,
+      "by_check": {
+        "model": 0,
+        "structure": 0,
+        "execution": 0,
+        "input": 0,
+        "raw": 10,
+        "result": 9
+      }
+    },
+    "single_scale": {
+      "cases": 10,
+      "flagged": 9,
+      "by_check": {
+        "model": 0,
+        "structure": 0,
+        "execution": 0,
+        "input": 0,
+        "raw": 0,
+        "result": 9
+      }
+    },
+    "wrong_stretch": {
+      "cases": 10,
+      "flagged": 9,
+      "by_check": {
+        "model": 0,
+        "structure": 0,
+        "execution": 0,
+        "input": 0,
+        "raw": 0,
+        "result": 9
+      }
+    },
+    "truncated_export": {
+      "cases": 2,
+      "flagged": 2,
+      "by_check": {
+        "model": 0,
+        "structure": 2,
+        "execution": 0,
+        "input": 0,
+        "raw": 2,
+        "result": 0
+      }
+    }
+  }
+}
